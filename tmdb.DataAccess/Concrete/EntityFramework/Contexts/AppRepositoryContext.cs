@@ -20,6 +20,6 @@ namespace tmdb.DataAccess.Concrete.EntityFramework.Contexts
         }
 
 
-        public DbSet<WatchList> MatchBets { get; set; }
+        public DbSet<WatchList> WatchLists { get; set; }
     }
 }
